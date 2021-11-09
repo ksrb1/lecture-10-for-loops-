@@ -1,0 +1,5 @@
+    string myWord = "ARSH";
+
+    for (int i{}; i < sizeof(myWord); i++) {
+        cout << myWord.at(i) << endl;
+    }
