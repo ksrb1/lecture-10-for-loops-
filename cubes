@@ -1,0 +1,7 @@
+    int userInput{};
+    cout << "Enter a number to get the corresponding cube numbers" << endl;
+    cin >> userInput;
+
+    for (int i{ 1 }; i <= userInput; i++) {
+        cout << "Number is : " << i << " and the cube of " << i << " is " << i * i * i <<endl;
+    }
